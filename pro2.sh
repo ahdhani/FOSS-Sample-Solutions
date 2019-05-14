@@ -12,9 +12,10 @@ while (($third < $max)) && (($third < $var ));do
 if(((($third%2))==0));then
 sum=$((sum+third))
 fi
-third=$((first+second))
+#third=$((first+second))
 first=$((second))
 second=$((third))
+third=$((first+second))
 done
 
 echo "The sum is $sum"
